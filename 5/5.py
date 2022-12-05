@@ -1,17 +1,10 @@
 filename = 'input.txt'
 
 with open(filename) as file:
-    stack_1 = ['R', 'Q', 'G', 'P', 'C', 'F']
-    stack_2 = ['P', 'C', 'T', 'W']
-    stack_3 = ['C', 'M', 'P', 'H', 'B']
-    stack_4 = ['R', 'P', 'M', 'S', 'Q', 'T', 'L']
-    stack_5 = ['N', 'G', 'V', 'Z', 'J', 'H', 'P']
-    stack_6 = ['J', 'P', 'D']
-    stack_7 = ['R', 'T', 'J', 'F', 'Z', 'P', 'G', 'L']
-    stack_8 = ['J', 'T', 'P', 'F', 'C', 'H', 'L', 'N']
-    stack_9 = ['W', 'C', 'T', 'H', 'Q', 'Z', 'V', 'G']
-
-    stacks = [stack_1, stack_2, stack_3, stack_4, stack_5, stack_6, stack_7, stack_8, stack_9]
+    stacks = [['R', 'Q', 'G', 'P', 'C', 'F'], ['P', 'C', 'T', 'W'], ['C', 'M', 'P', 'H', 'B'],
+              ['R', 'P', 'M', 'S', 'Q', 'T', 'L'], ['N', 'G', 'V', 'Z', 'J', 'H', 'P'], ['J', 'P', 'D'],
+              ['R', 'T', 'J', 'F', 'Z', 'P', 'G', 'L'], ['J', 'T', 'P', 'F', 'C', 'H', 'L', 'N'],
+              ['W', 'C', 'T', 'H', 'Q', 'Z', 'V', 'G']]
 
     operations = []
     for line in file:

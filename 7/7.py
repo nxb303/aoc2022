@@ -27,7 +27,6 @@ with open(filename) as file:
                 current_node = new_node
             elif command == 'ls':
                 continue
-                # attach files and dirs to dir
         else:
             if line.split(' ')[0] == 'dir':
                 dir_name = line.split(' ')[1]

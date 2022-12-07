@@ -36,7 +36,7 @@ with open(filename) as file:
                 file_size = line.split(' ')[0]
                 file_name = line.split(' ')[1]
                 filetree.create_node(f'{file_name}', parent=current_node, data=File(file_name, file_size))
-    filetree_dict = filetree.to_dict(with_data=True)
+
     dir_trees = []
     for node in filetree.all_nodes_itr():
         if node.data is None:
